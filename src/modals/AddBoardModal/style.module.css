@@ -1,0 +1,17 @@
+.modal {
+  max-height: 481px;
+  max-width: 480px;
+}
+
+@media (max-height: 440px) {
+  .modal {
+    height: 320px;
+  }
+} 
+
+@media (max-width: 620px) {
+  .modal {
+    height: 390px;
+    padding: 20px !important;
+  }
+}
